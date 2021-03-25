@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+}
+.registerForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signupButton{
+    margin-top: 22px;
+}
+.signupButton button{
+    width: 10vw;
+    height: 4vh;
+    background-color: rgb(10, 184, 10);
+    border-radius: 7px;
+}
