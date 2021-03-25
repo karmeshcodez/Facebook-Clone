@@ -8,6 +8,6 @@ Tech Stack:
     Postgresql
     Material UI
 
-TO-DO: 
+TODO: 
     Allow users to post to the dashboard.
     Allow users to add other users.
