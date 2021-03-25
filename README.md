@@ -10,4 +10,4 @@ Tech Stack:
 
 TODO: 
     Allow users to post to the dashboard.
-    Allow users to add other users.
+    Allow users to add other users..
