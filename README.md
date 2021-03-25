@@ -8,7 +8,10 @@ Tech Stack:
     Postgresql
     Material UI
 
-![login pic](./pics/login.png?raw=true "login")
+![login pic](./pics/login.PNG?raw=true "login")
+![dashboard1 pic](./pics/dashboard1.PNG?raw=true "dashboard1")
+![dashboard2 pic](./pics/dashboard2.PNG?raw=true "dashboard2")
+![register pic](./pics/register.PNG?raw=true "register")
 
 TODO: 
     Allow users to post to the dashboard.
