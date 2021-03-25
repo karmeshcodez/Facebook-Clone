@@ -8,6 +8,9 @@ Tech Stack:
     Postgresql
     Material UI
 
+![login pic](./pics/login.png?raw=true "login")
+
 TODO: 
     Allow users to post to the dashboard.
     Allow users to add other users.
+

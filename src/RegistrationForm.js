@@ -36,15 +36,17 @@ function RegistrationForm({setAuth}) {
     return (
         <div className='registerForm'>
             <div>
-                <div> Sign Up </div>
-                <div> It's quick and easy.</div>
+                <div className='signUp'> Sign Up </div>
+                <div className='quickNeasy'> It's quick and easy.</div>
                 <hr/>
                 <form onSubmit={onSubmit}>
-                    <input type='text' placeholder='First Name' name='firstname' value={inputs.firstname} onChange ={e => onChange(e)} />
-                    <input type='text' placeholder='Last Name' name='lastname' value={inputs.lastname} onChange ={e => onChange(e)} />
-                    <div> <input type='email' placeholder='Mobile number or email' name='email' value={inputs.email} onChange ={e => onChange(e)} /> </div>
-                    <div> <input type='password' placeholder='New password' name='password' value={inputs.password} onChange ={e => onChange(e)} /> </div>
-                    <div id='agreementText'>By clicking Sign Up, you agree to our Terms, Data Policy and Cookies Policy. You may receive SMS Notifications from us and can opt out any time.</div>
+                    <div className='name'>
+                        <input type='text' placeholder='First Name' name='firstname' value={inputs.firstname} onChange ={e => onChange(e)} />
+                        <input type='text' placeholder='Last Name' name='lastname' value={inputs.lastname} onChange ={e => onChange(e)} />
+                    </div>
+                    <div className='formInput'> <input type='email' placeholder='Mobile number or email' name='email' value={inputs.email} onChange ={e => onChange(e)} /> </div>
+                    <div className='formInput'> <input type='password' placeholder='New password' name='password' value={inputs.password} onChange ={e => onChange(e)} /> </div>
+                    <div id='agreementText' className='agreement'>By clicking Sign Up, you agree to our Terms, Data Policy and Cookies Policy. You may receive SMS Notifications from us and can opt out any time.</div>
                     <div className='signupButton'><button><span style={{color:'white'}}>Sign Up</span></button> </div>
                 </form>
             </div>
