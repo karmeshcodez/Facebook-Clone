@@ -13,7 +13,5 @@ Tech Stack:
 ![dashboard2 pic](./pics/dashboard2.PNG?raw=true "dashboard2")
 ![register pic](./pics/register.PNG?raw=true "register")
 
-TODO: 
-    Allow users to post to the dashboard.
-    Allow users to add other users.
+
 
